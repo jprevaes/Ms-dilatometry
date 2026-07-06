@@ -11,7 +11,7 @@ def martensite_dilatometry(csv_path,
                         smooth=15,
                         target_fraction=0.05,
                         max_Ms_temp=450,
-                        Lo = 10030):
+                        Lo = 10000):
 
 
     # --- Load CSV header ---
