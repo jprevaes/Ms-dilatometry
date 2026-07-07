@@ -53,7 +53,6 @@ def martensite_dilatometry(csv_path,
     t = t_cool[mask]
 
     # --- Normalize ---
-    Lo = Lo
     dL_fit = dL * (100 / Lo)
 
     # --- Fit FCC/BCC lines ---
