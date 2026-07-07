@@ -71,7 +71,7 @@ def martensite_dilatometry(csv_path,
     # --- Martensite fraction ---
     BCC_fraction = (dL_fit - FCC_curve) / (BCC_curve - FCC_curve)
 
-    # --- FIND TEMPERATURE WHERE BCC FRACTION = 0.02 ---
+    # --- FIND TEMPERATURE WHERE BCC FRACTION = x ---
     target = target_fraction
     max_valid_T = max_Ms_temp
 
